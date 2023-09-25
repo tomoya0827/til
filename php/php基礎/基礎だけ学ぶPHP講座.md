@@ -84,3 +84,17 @@
 ・変数名には小文字を使うことが一般的  
 ・変数名に２つ以上の単語を組み合わせる場合はキャメルケース、スネークケースといった表示記法がある  
 
+    <?php
+    $name = "Andy";
+    $Name = "Betty":
+    $NAME = "Carol";
+    echo $name;
+    echo $Name;
+    echo $NAME;
+    ・上記３つの変数の中では$nameが一般的な名前の付け方です。
+
+・参考：First Nameという変数名を表現する場合
+
+    <?php
+    $firstName = "Andy"; #キャメルケース
+    $first_name = "Andy"; #スネークケース
