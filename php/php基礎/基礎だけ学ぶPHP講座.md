@@ -70,3 +70,10 @@
     $all_names = $name . $name2;
     echo $all_names;
     ・記号は２つの文字列データを連結するために使います。
+
+・不正な変数名
+
+    <?php
+    name = "Andy"; # $記号で始まっていない
+    $2name = "Betty"; # ＄記号の直後に数字は使えない
+    $all-names = $name . $name2; # 変数名に-（ハイフン）は使えない
