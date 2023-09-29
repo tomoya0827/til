@@ -98,3 +98,4 @@
     <?php
     $firstName = "Andy"; #キャメルケース
     $first_name = "Andy"; #スネークケース
+
